@@ -342,6 +342,21 @@ justify-content: center;
   }
 }
 
+.container img{
+width: 17%;}
+
+@media (max-width: 1000px){
+.container img{
+width: 40%;}
+  
+
+}
+@media (max-width: 480px){
+.container img{
+width: 70%;
+padding-top: 20px;}
+}
+
 
 
 
@@ -395,7 +410,6 @@ color: var(--white); }
 }
 
 .hero-form .btn { width: 100%; }
-
 
 /*info*/
 .info-container {
