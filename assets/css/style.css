@@ -342,17 +342,17 @@ justify-content: center;
   }
 }
 
-.container img{
+.image{
 width: 17%;}
 
 @media (max-width: 1000px){
-.container img{
+.image{
 width: 40%;}
   
 
 }
 @media (max-width: 480px){
-.container img{
+.image{
 width: 70%;
 padding-top: 20px;}
 }
